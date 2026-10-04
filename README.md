@@ -88,17 +88,5 @@ cse307-learned-page-replacement/
 
 Locality benefits recency-based policies (LRU) in the first phase. After shift to random access, temporal locality decreases and fault rates increase across all policies. Optimal remains the theoretical lower bound for the given trace. The lightweight learned policy is demonstrative; its performance reflects the chosen features, labeling, and training regime.
 
-### 12. AI Assistance Disclosure
 
-AI-assisted coding tools were used to help with code organization, debugging, and documentation. The experimental design, execution, interpretation of results, and final analysis were reviewed and understood by the author.
 
-### 13. 3–5 Minute Demo Guide
-
-1. **Open repository**: Show structure and responsibilities.
-2. **Show workload.py**: Explain locality-heavy/sequential first half, random access second half, shift at x=1000, separate training/evaluation seeds.
-3. **Show FIFO/LRU/Optimal**: Contrast behaviors; Optimal is future-aware benchmark.
-4. **Show learned_policy.py**: Explain recency/frequency/age, heuristic labeling, past-only at runtime, training on independent training trace.
-5. **Run experiment**: `python main.py` — show config (training/eval seeds, lengths, shift).
-6. **Show terminal**: Point to Before/After/Overall faults, Hit Ratio, Validation checks.
-7. **Show plots**: `results/comparison.png` and `results/workload_trace.png` (entire trace, shift at 1000).
-8. **Conclude**: Behavior shifts under changing locality; results are fair (same eval trace); learned is simple/adaptive demonstration.
