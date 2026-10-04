@@ -1,0 +1,13 @@
+policy,phase,page_hits,page_faults,hit_ratio,fault_ratio
+FIFO,before_shift,834,166,0.834,0.166
+FIFO,after_shift,196,804,0.196,0.804
+FIFO,overall,1030,970,0.515,0.485
+LRU,before_shift,833,167,0.833,0.167
+LRU,after_shift,196,804,0.196,0.804
+LRU,overall,1029,971,0.5145,0.4855
+Optimal,before_shift,878,122,0.878,0.122
+Optimal,after_shift,442,558,0.442,0.558
+Optimal,overall,1320,680,0.66,0.34
+Learned,before_shift,833,167,0.833,0.167
+Learned,after_shift,196,804,0.196,0.804
+Learned,overall,1029,971,0.5145,0.4855
